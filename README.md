@@ -1,4 +1,4 @@
-This is my resume
+# This is my resume
 
 This give a detail of who i am and all my abilities. It also has my contact details on the footer session if you wish to reach me.
 
