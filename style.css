@@ -1,0 +1,123 @@
+.container {
+    min-height: 300px;
+    width: 100%;
+    background-color: rgb(203, 247, 209);
+    text-align: center;
+    padding-top: 30px;
+    margin-bottom: 10px;
+    
+}
+
+.secondsection {
+    text-align: center;
+    margin: 50px;
+
+}
+
+.Charzy {
+    max-width: 100%; /* Allow image to scale proportionally */
+  }
+
+/* .project-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: justify;
+    gap: 20px;
+    
+} */
+
+.project-container {
+    display: flex;  /* Use flexbox for project container */
+    gap: 10px;  /* Gap between project sections */
+    justify-content: space-between; /* Distribute items evenly in the container (optional) */
+  }
+
+/* .innerboxes {
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+} */
+
+.innerboxes {
+    padding: 20px; /* Adjust padding as needed */
+    border-radius: 30px;
+  }
+
+
+.skillscontainer {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.skillbox {
+    background-color: rgb(203, 247, 209);
+    padding: 10px;
+    font-weight: 800;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.Educationbox {
+    margin: 60px;
+    text-align: center;
+    max-width: 100%;
+}
+
+.Interestbox {
+    line-height: 0;
+    text-align: center;
+}
+
+.list {
+    line-height: 1.5;
+    list-style: none;
+}
+
+.footer {
+    background-color: green;
+    height: 150px;
+    color: white;
+    text-align: center;
+}
+
+.footerimage {
+    height: 20px;
+    width: 20px;
+}
+
+.innerfooterbox {
+    display: flex;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+
+.footerbox {
+    background-color: white;
+    box-shadow: 5px 3px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding: 10px;
+
+}
+
+/* Media Query for smaller screens (adjust as needed) */
+@media (max-width: 600px) {
+    h1 {
+      font-size: 2.5rem; /* Adjust font size for smaller screens */
+      text-align: center;
+    }
+}
+
+.skillscontainer {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust column behavior for smaller screens */
+  }
+
+ /* Media Query for smaller screens (adjust as needed) */
+@media (max-width: 600px) {
+    .project-container {
+      flex-direction: column; /* Stack items on top for smaller screens */
+    }
+  }
